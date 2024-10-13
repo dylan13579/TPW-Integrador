@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="inicio.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -16,5 +18,50 @@
             </ul>
         </nav>
     </header>
+
+    <main>   
+        <section class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img src="img/ageofempires1080.webp" alt="Juego 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/20222121035218_1.jpg" alt="Juego 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="img/call of duty 1080.png" alt="Juego 3">
+                </div>
+                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+            </div>
+        </section>
+
+        <section class="articulo-container">
+            <article class="columna">
+                <h2>Estrategia en Tiempo Real</h2>
+                <p>Los juegos de guerra en tiempo real han ganado popularidad debido a su dinamismo. Ejemplos como Age of Empires y Starcraft muestran cómo la planificación es clave para la victoria.</p>
+            </article>
+
+            <article class="columna">
+                <h2>Simulación Bélica</h2>
+                <p>Los simuladores de guerra permiten a los jugadores experimentar escenarios bélicos históricos con realismo, como en la saga Total War o Arma 3.</p>
+            </article>
+
+            <article class="columna">
+                <h2>Juegos de Disparo</h2>
+                <p>Juegos como Call of Duty y Battlefield ofrecen una experiencia de combate más directa, combinando acción rápida con estrategias de equipo.</p>
+            </article>
+        </section>
+
+
+        <div style="height: 500px;"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juegos de Guerra</p>
+    </footer>
+
+    <script src="articulo.js"></script>
 </body>
+
 </html>
