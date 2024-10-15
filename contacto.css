@@ -55,15 +55,15 @@ main {
 
 
 form {
-    padding: 40px;
+    padding: 20px;
     border: 2px solid #ddd;
     border-radius: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     box-sizing: border-box;
     text-align: center;
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 form input {
