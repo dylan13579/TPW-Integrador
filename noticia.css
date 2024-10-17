@@ -84,8 +84,6 @@ p {
 }
 
 .mi-imagen {
-    border: 2px solid #000;
     border-radius: 10px;
     width: 800px;
-    /* Ajusta el tamaño según sea necesario */
 }
