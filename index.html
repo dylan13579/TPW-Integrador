@@ -13,43 +13,50 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="noticia.html">Noticias</a></li>
+                <li><a href="articulo.html">VideoJuegos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>   
+    <main>
+        <div id="welcome-message">
+            <h1>¡Bienvenido a la Aventura de los Videojuegos!</h1>
+            <p>Sumérgete en el emocionante mundo de los videojuegos bélicos. Explora artículos, descubre estrategias y comparte tu pasión con otros jugadores.</p>
+        </div>
         <section class="carousel-container">
             <div class="carousel">
                 <div class="carousel-slide active">
-                    <img src="img/ageofempires1080.webp" alt="Juego 1">
+                    <img src="" alt="Juego 1">
                 </div>
                 <div class="carousel-slide">
-                    <img src="img/20222121035218_1.jpg" alt="Juego 2">
+                    <img src="" alt="Juego 2">
                 </div>
                 <div class="carousel-slide">
-                    <img src="img/call of duty 1080.png" alt="Juego 3">
+                    <img src="" alt="Juego 3">
                 </div>
-                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                <a class="prev" onclick="moverDiapositiva(-1)">&#10094;</a>
+                <a class="next" onclick="moverDiapositiva(1)">&#10095;</a>
             </div>
         </section>
 
         <section class="articulo-container">
             <article class="columna">
                 <h2>Estrategia en Tiempo Real</h2>
-                <p>Los juegos de guerra en tiempo real han ganado popularidad debido a su dinamismo. Ejemplos como Age of Empires y Starcraft muestran cómo la planificación es clave para la victoria.</p>
+                <p>Los juegos de guerra en tiempo real han ganado popularidad debido a su dinamismo. Ejemplos como Age
+                    of Empires y Starcraft muestran cómo la planificación es clave para la victoria.</p>
             </article>
 
             <article class="columna">
                 <h2>Simulación Bélica</h2>
-                <p>Los simuladores de guerra permiten a los jugadores experimentar escenarios bélicos históricos con realismo, como en la saga Total War o Arma 3.</p>
+                <p>Los simuladores de guerra permiten a los jugadores experimentar escenarios bélicos históricos con
+                    realismo, como en la saga Total War o Arma 3.</p>
             </article>
 
             <article class="columna">
                 <h2>Juegos de Disparo</h2>
-                <p>Juegos como Call of Duty y Battlefield ofrecen una experiencia de combate más directa, combinando acción rápida con estrategias de equipo.</p>
+                <p>Juegos como Call of Duty y Battlefield ofrecen una experiencia de combate más directa, combinando
+                    acción rápida con estrategias de equipo.</p>
             </article>
         </section>
 
@@ -61,7 +68,7 @@
         <p>&copy; 2024 Juegos de Guerra</p>
     </footer>
 
-    <script src="articulo.js"></script>
+    <script src="carrusel.js"></script>
 </body>
 
 </html>
