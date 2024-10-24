@@ -1,7 +1,8 @@
 let imagenes = [
     "img/Age-2-Destacada.jpg",
     "img/warhammer-III.jpg",
-    "img/1024_2000.webp"
+    "img/1024_2000.webp",
+
 ];
 
 let indiceDiapositiva = 0;

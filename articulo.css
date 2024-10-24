@@ -52,7 +52,8 @@ main {
 }
 
 section {
-    background-color: #9c27b0;
+    background-color: black;
+    color: #9c27b0;
     padding: 1em;
     margin-bottom: 20px;
     box-shadow: 0 0 10px tgba(0, 0, 0, 10);
@@ -87,9 +88,11 @@ h1 {
 p {
     font-weight: bolder;
     font-size: 18px;
+    color: #9c27b0;
 }
 
 .mi-imagen {
     border-radius: 10px;
     width: 800px;
+    border: 5px solid #9c27b0;
 }

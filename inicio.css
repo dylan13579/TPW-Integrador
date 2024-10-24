@@ -61,13 +61,12 @@ nav li:hover {
 
 .titulo-carrusel h2 {
     font-size: 30px;
-    color: #9c27b0; 
    
 }
 
 .titulo-carrusel p {
     font-size: 18px;
-    color: #ffffff; 
+    color: #9c27b0; 
     margin-top: 10px;
 }
 
@@ -150,8 +149,10 @@ nav li:hover {
 h2 {
     color: #ffffffee;
 }
+
+
 .columna p {
-    color: #ffffff; 
+    color: #9c27b0; 
 }
 
 #welcome-message {
@@ -224,5 +225,9 @@ h2 {
 .caracteristicas li {
     margin-bottom: 10px;
     font-size: 18px;
+    color: white;
+}
+
+.juego-multijugador h3 {
     color: white;
 }
