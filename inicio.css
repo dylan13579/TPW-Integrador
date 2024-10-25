@@ -249,23 +249,23 @@ h2 {
 .juego-multijugador h3 {
     color: white;
 }
-/* Estilos para la sección de próximos lanzamientos */
+
 .proximos-lanzamientos {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+    background-color: rgba(0, 0, 0, 0.8); 
     border-radius: 10px;
 }
 
-/* Estilo del título "Próximos Lanzamientos" */
+
 .proximos-lanzamientos h2 {
-    color: #9c27b0; /* Color morado */
+    color: #ffffff; 
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-/* Cuadrícula de videos */
+
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -273,7 +273,7 @@ h2 {
     justify-items: center;
 }
 
-/* Estilo de los videos */
+
 .video-grid iframe {
     width: 200px;
     height: 200px;
