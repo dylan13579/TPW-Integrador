@@ -2,6 +2,12 @@ let imagenes = [
     "img/Age-2-Destacada.jpg",
     "img/warhammer-III.jpg",
     "img/1024_2000.webp",
+    "img/Arma3-570x320.jpg",
+    "img/og_image.webp",
+    "img/k-1920x1080-featured-image.jpg.adapt.crop191x100.1200w.jpg",
+    "img/1366_2000.webp",
+    "img/WZ-Season-Three-Announce-TOUT-1.jpg",
+
 
 ];
 

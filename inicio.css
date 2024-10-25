@@ -131,7 +131,25 @@ nav li:hover {
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+.titulo-columna h2 {
+    font-size: 32px; 
+    color: #9c27b0; 
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #9c27b0; 
+    display: block;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+}
 
+.titulo-columna {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+   
+}
 .articulo-container {
     display: flex;
     justify-content: space-between;
